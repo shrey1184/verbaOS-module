@@ -22,7 +22,7 @@ VerbaOS was built in three stages across four repositories. This repo is the doc
 | **2. Model deployment** | [**Hubert-Production**](https://github.com/shrey1184/Hubert-Production) | First deployment of the HuBERT model (`facebook/hubert-base-ls960`) as an Azure ML managed online endpoint: endpoint creation, environment, and scoring script that returns audio embeddings. |
 | **2. Model deployment** | [**Azure-SpeechIntent**](https://github.com/shrey1184/Azure-SpeechIntent) | Refined Azure ML deployment package: deployment configs, conda environment, and the scoring scripts for both models (HuBERT embeddings with mean pooling, and a CTC transcription endpoint). |
 | **3. Final product** | [**VerbaOS**](https://github.com/shrey1184/VerbaOS) | The complete application: FastAPI backend, intent classification engine, learning loop, patient and caretaker React apps. |
-| **Docs hub** | **VerbaOS-module** (this repo) | Overview, architecture, and links to everything above. |
+| **Docs hub** | [**VerbaOS-module**] (https://github.com/shrey1184/verbaOS-module) | Overview, architecture, and links to everything above. |
 
 ```
  Plan & prototype          Deploy the models             Build the product
